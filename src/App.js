@@ -8,7 +8,7 @@ function App() {
     <div className="app">
       <h1>Hello Tazkiyah Programmers, Let's build Tik Tok Clone</h1>
 
-      <div className="app__video">
+      <div className="app__videos">
         <Video />
         <Video />
         <Video />

@@ -6,7 +6,7 @@ function Video() {
     <div className="video">
       <h1>This is a video</h1>
       {/* <VideoFooter /> */}
-      {/* <VideoSidebar /> */}
+      {/* <VideoSidebar /> /> */}
     </div>
   )
 }
