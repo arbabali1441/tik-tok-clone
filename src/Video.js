@@ -1,5 +1,6 @@
 import React, { useRef, useState } from "react";
 import VideoFooter from "./VideoFooter";
+import VideoSidebar from "./VideoSidebar";
 import "./Video.css";
 
 function Video() {
@@ -25,9 +26,8 @@ function Video() {
         ref={videoRef}
         src="https://www.tiktok.com/@sunshine.and.sunflowers/video/6874216231948324102?lang=en"
       ></video>
-       <VideoFooter />
-      {/* <VideoFooter /> */}
-      {/* <VideoSidebar /> /> */}
+       <VideoFooter channel="arbab" description="love this song" song="xyz" />
+       <VideoSidebar />
     </div>
   );
 }
