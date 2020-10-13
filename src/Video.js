@@ -23,7 +23,7 @@ function Video() {
         loop
         onClick={onVideoPress}
         ref={videoRef}
-        src="https://www.tiktok.com/@kynsmith/video/6882573007475248389?sender_device=pc&sender_web_id=6882964992313591298&is_from_webapp=1"
+        src="https://www.tiktok.com/@sunshine.and.sunflowers/video/6874216231948324102?lang=en"
       ></video>
        <VideoFooter />
       {/* <VideoFooter /> */}
