@@ -26,8 +26,8 @@ function Video() {
         ref={videoRef}
         src="https://www.tiktok.com/@sunshine.and.sunflowers/video/6874216231948324102?lang=en"
       ></video>
-       <VideoFooter channel="arbab" description="love this song" song="xyz" />
-       <VideoSidebar />
+       <VideoFooter channel="arbab" description="love this song" song="Usher - Yeah" />
+       <VideoSidebar likes={111} messages={222} shares={333} />
     </div>
   );
 }
