@@ -1,4 +1,5 @@
 import React, { useRef, useState } from "react";
+import VideoFooter from "./VideoFooter";
 import "./Video.css";
 
 function Video() {
@@ -22,12 +23,13 @@ function Video() {
         loop
         onClick={onVideoPress}
         ref={videoRef}
-        src="https://www.tiktok.com/@kynsmith/video/6882573007475248389?sender_device=pc&sender_web_id=6882964992313591298&is_from_webapp=1"
-       ></video>
+        src="https://www.tiktok.com/@kynsmith/video/6882573007475248389?sender_device=pc&sender_web_id=6882964992313591298&is_from_webapp=1" alt=""
+      ></video>
+       <VideoFooter />
       {/* <VideoFooter /> */}
       {/* <VideoSidebar /> /> */}
     </div>
   );
 }
 
-export default Video
+export default Video;
