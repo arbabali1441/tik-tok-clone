@@ -3,7 +3,7 @@ import VideoFooter from "./VideoFooter";
 import VideoSidebar from "./VideoSidebar";
 import "./Video.css";
 
-function Video() {
+function Video({ url, channel, description, song, likes, messages, shares }) {
   const [playing, setPlaying] = useState(false);
   const videoRef = useRef(null);
 
@@ -24,10 +24,10 @@ function Video() {
         loop
         onClick={onVideoPress}
         ref={videoRef}
-        src="https://www.tiktok.com/@sunshine.and.sunflowers/video/6874216231948324102?lang=en"
+        src={url}
       ></video>
-       <VideoFooter channel="arbab" description="love this song" song="Usher - Yeah" />
-       <VideoSidebar likes={111} messages={222} shares={333} />
+      <VideoFooter channel={channel} description={description} song={song} />
+      <VideoSidebar likes={likes} messages={messages} shares={shares} />
     </div>
   );
 }
