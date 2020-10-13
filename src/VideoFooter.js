@@ -1,5 +1,6 @@
 import React from "react";
 import "./VideoFooter.css";
+import MusicNoteIcon from "@material-ui/icons/FavoriteBorder";
 
 function VideoFooter() {
   return (
@@ -7,6 +8,7 @@ function VideoFooter() {
       <div className="videoFooter__text">
         <h3>@arbabali</h3>
         <p>This is a description</p>
+        <MusicNoteIcon />
       </div>
       <img 
         className="videoFooter__record"
