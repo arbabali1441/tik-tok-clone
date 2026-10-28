@@ -1,68 +1,51 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
 
-## Available Scripts
+# 🚀 TikTok Pro Ultimate & Enterprise Suite
 
-In the project directory, you can run:
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColor_list=25F4EE,FE2C55,000000&height=140&section=header&text=TikTok%20Pro%20Enterprise&fontSize=35&fontColor=ffffff&animation=fadeIn&fontAlignY=38" width="100%"/>
 
-### `yarn start`
+<p align="center">
+  <a href="https://github.com/arbabali1441/tik-tok-clone">
+    <img src="https://img.shields.io/badge/Status-Production%20Ready-2ECC71?style=for-the-badge&logo=appveyor" alt="Status">
+  </a>
+  <a href="https://github.com/arbabali1441/tik-tok-clone">
+    <img src="https://img.shields.io/github/stars/arbabali1441/tik-tok-clone?style=for-the-badge&color=FE2C55&logo=github" alt="Stars">
+  </a>
+  <a href="https://github.com/arbabali1441/tik-tok-clone/forks">
+    <img src="https://img.shields.io/github/forks/arbabali1441/tik-tok-clone?style=for-the-badge&color=25F4EE&logo=github" alt="Forks">
+  </a>
+  <a href="LICENSE">
+    <img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge" alt="License">
+  </a>
+  <a href="https://react.dev/">
+    <img src="https://img.shields.io/badge/React-19.0-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React">
+  </a>
+</p>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+*An enterprise-grade, high-performance short-form video streaming ecosystem built with modern React. Featuring 24-hour expiring stories, WebRTC live broadcasting, real-time Creator Studio analytics, and an interactive virtual gifting economy.*
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+[View Live Demo](#-quick-start--installation) · [Report Bug](https://github.com/arbabali1441/tik-tok-clone/issues) · [Request Feature](https://github.com/arbabali1441/tik-tok-clone/issues)
 
-### `yarn test`
+</div>
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `yarn build`
+## 💎 What Makes This Elite?
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**TikTok Pro** isn't just a basic clone—it's engineered to mimic full-scale production social media platforms with a sleek **Glassmorphism / Neon Dark UI**, client-side state caching, optimized DOM rendering, and buttery-smooth UX designed for ultimate engagement.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+### 🌐 System Architecture Overview
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```ascii
++---------------------------------------------------------------------------------------------------+
+|                                  TIKTOK PRO SYSTEM ARCHITECTURE                                   |
++---------------------------------------------------------------------------------------------------+
+|                                                                                                   |
+|   [Client Feed & Scrubber] <=======> [24h Auto-Expiry Stories] <=======> [WebRTC Stream Studio]   |
+|            |                                     |                                     |          |
+|            v                                     v                                     v          |
+|   [Local State Caching]    <=======>    [Creator Studio Analytics]  <=======> [Virtual Coin Wallet] |
+|                                                                                                   |
++---------------------------------------------------------------------------------------------------+
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
